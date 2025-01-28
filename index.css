@@ -16,3 +16,9 @@ html {
 img {
     box-shadow: 0 0 10px hotpink;
 }
+#money {
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: aquamarine;
+}
