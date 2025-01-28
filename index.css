@@ -1,7 +1,12 @@
 h1 {
-    color: red;
+    color: rgb(13, 74, 14);
     font-style: italic;
     font-family: 'Arial';
-    font-size: 100;
+    font-size: 3rem;
     margin-block-start: 0.67em;
+}
+body {
+    background-color: rgb(221, 214, 80);
+    font-size: 2rem;
+    color :rgb(19, 174, 29)
 }
