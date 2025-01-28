@@ -1,12 +1,18 @@
 h1 {
     color: rgb(13, 74, 14);
     font-style: italic;
+    text-decoration: underline dotted goldenrod;
     font-family: 'Arial';
     font-size: 3rem;
-    margin-block-start: 0.67em;
+    box-shadow: 0 0 10px rgba(25, 50, 14, 0.75);
 }
 body {
     background-color: rgb(221, 214, 80);
     font-size: 2rem;
-    color :rgb(19, 174, 29)
+    color :rgb(19, 174, 29);
+    text-align: center
+    ;
+}
+img {
+    box-shadow: 0 0 10px hotpink;
 }
