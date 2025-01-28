@@ -6,9 +6,9 @@ h1 {
     font-size: 3rem;
     box-shadow: 0 0 10px rgba(25, 50, 14, 0.75);
 }
-body {
+html {
     background-color: rgb(221, 214, 80);
-    font-size: 2rem;
+    font-size: 1rem;
     color :rgb(19, 174, 29);
     text-align: center
     ;
