@@ -1,24 +1,46 @@
 h1 {
     color: rgb(13, 74, 14);
     font-style: italic;
-    text-decoration: underline dotted goldenrod;
-    font-family: 'Arial';
+    text-decoration: underline dotted rgb(58, 58, 58);
     font-size: 3rem;
-    box-shadow: 0 0 10px rgba(25, 50, 14, 0.75);
+    background-clip:content-box;
+    margin: center;
+    background: rgb(165, 18, 18);
+    border-radius: 24px 24px 24px 24px;
+    border: 2px solid rgb(58, 58, 58);
 }
 html {
     background-color: rgb(221, 214, 80);
     font-size: 1rem;
     color :rgb(19, 174, 29);
-    text-align: center
-    ;
+    text-align: center;
 }
 img {
-    box-shadow: 0 0 10px hotpink;
+    box-shadow: 0 0 10px bisque;
 }
-#money {
-    color: rgb(255, 0, 0);
+button {
     font-size: 2rem;
     font-weight: bold;
-    background-color: aquamarine;
+    background-color: bisque;
+    border-radius: 10px;
+    border : none;
+}
+button :hover {
+    background-color: rgb(255, 0, 0);
+}
+a {
+    color: rgb(255, 0, 174);
+    text-decoration: none;
+}
+.roboto-condensed {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.liter-regular {
+    font-family: "Liter", serif;
+    font-weight: 400;
+    font-style: normal;
 }
